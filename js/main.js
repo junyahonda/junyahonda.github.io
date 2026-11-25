@@ -71,6 +71,11 @@
 
 	    var href = $.attr(this, 'href');
 
+	    if ($('#ftco-nav').hasClass('show')) {
+	    	$('#ftco-nav').collapse('hide');
+	    	$('.js-fh5co-nav-toggle').removeClass('active');
+	    }
+
 	    $('html, body').animate({
 	        scrollTop: Math.max($($.attr(this, 'href')).offset().top - 70, 0)
 	    }, 500, function() {

@@ -1,0 +1,106 @@
+/* Site-specific additions on top of the Colorlib template */
+
+.hero-cta .btn {
+  margin: 0 .35rem .5rem; }
+
+.hero-cta .btn-outline-primary {
+  color: #3e64ff;
+  border: 2px solid #3e64ff;
+  background: transparent; }
+  .hero-cta .btn-outline-primary:hover, .hero-cta .btn-outline-primary:focus {
+    color: #fff;
+    background: #3e64ff; }
+
+.ftco-about ul.about-info li span a {
+  color: inherit; }
+  .ftco-about ul.about-info li span a:hover {
+    color: #3e64ff; }
+
+.ad-wrap {
+  overflow: hidden; }
+
+.skill-tags {
+  list-style: none;
+  padding: 0;
+  margin: .5rem 0 0;
+  display: flex;
+  flex-wrap: wrap; }
+  .skill-tags li {
+    background: #edf0ff;
+    color: #3e64ff;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 999px;
+    padding: .25rem .85rem;
+    margin: 0 .5rem .5rem 0; }
+
+.project-tile {
+  color: #fff; }
+  .project-tile .tile-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    transition: opacity .3s ease; }
+    .project-tile .tile-label span {
+      display: block;
+      font-size: 48px;
+      margin-bottom: .5rem;
+      opacity: .85; }
+  .project-tile:hover .tile-label, .project-tile:focus .tile-label {
+    opacity: 0; }
+  @media (max-width: 767.98px) {
+    .project-tile .tile-label {
+      display: none; } }
+
+.tile-graphics {
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%); }
+
+.tile-automation {
+  background: linear-gradient(135deg, #0a66c2 0%, #004182 100%); }
+
+.tile-mobile {
+  background: linear-gradient(135deg, #3e64ff 0%, #6a11cb 100%); }
+
+.tile-more {
+  background: linear-gradient(135deg, #24292e 0%, #444d56 100%); }
+
+.services-1 .desc p {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.contact-section .box a {
+  word-break: break-word; }
+
+@media (max-width: 767.98px) {
+  .project.img .overlay {
+    opacity: .8; } }
+
+.project .text h3 {
+  color: #fff; }
+
+@media (max-height: 700px) {
+  .hero-wrap .mouse {
+    display: none; } }
+
+a:focus > .project .overlay {
+  opacity: .9; }
+
+a:focus > .project .text {
+  opacity: 1; }
+
+a:focus > .project-tile .tile-label {
+  opacity: 0; }
+
+@media (hover: none) {
+  .project .overlay {
+    opacity: .8; }
+  .project .text {
+    opacity: 1; }
+  .project-tile .tile-label {
+    display: none; } }

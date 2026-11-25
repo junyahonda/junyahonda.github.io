@@ -92,3 +92,20 @@
 @media (max-height: 700px) {
   .hero-wrap .mouse {
     display: none; } }
+
+a:focus > .project .overlay {
+  opacity: .9; }
+
+a:focus > .project .text {
+  opacity: 1; }
+
+a:focus > .project-tile .tile-label {
+  opacity: 0; }
+
+@media (hover: none) {
+  .project .overlay {
+    opacity: .8; }
+  .project .text {
+    opacity: 1; }
+  .project-tile .tile-label {
+    display: none; } }

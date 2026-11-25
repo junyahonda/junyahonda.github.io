@@ -88,3 +88,7 @@
 
 .project .text h3 {
   color: #fff; }
+
+@media (max-height: 700px) {
+  .hero-wrap .mouse {
+    display: none; } }

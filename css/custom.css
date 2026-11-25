@@ -85,3 +85,6 @@
 @media (max-width: 767.98px) {
   .project.img .overlay {
     opacity: .8; } }
+
+.project .text h3 {
+  color: #fff; }
